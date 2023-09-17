@@ -1,0 +1,142 @@
+.containers form{
+  top: 0px;
+  width: 100%;
+  max-width:px auto;
+  height: 44px;
+  background-color: #f0f2f5;
+  border-radius: 20px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containers form img {
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.containers form input {
+  flex: 1;
+  width: 200px;
+  margin: 5px;
+  height: auto;
+  font-size: 19px;
+  border-top-right-radius: 18px;
+  border-style: none;
+  background-color: #f0f2f5;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width:1166px) {
+  .containers form{
+    top: 0px;
+    width: 100%;
+    max-width:fit;
+    height: 44px;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containers form img {
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .containers form input {
+    flex: 1;
+    width:100%;
+    margin: 5px;
+    height: auto;
+    font-size: 19px;
+    border-top-right-radius: 18px;
+    border-style: none;
+    background-color: #f0f2f5;
+  }
+}
+
+@media screen and (max-width:780px) {
+  .containers form{
+    top: 0px;
+    width: 100%;
+    max-width:fit;
+    height: 40px;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containers form img {
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .containers form input {
+    flex: 1;
+    width:100%;
+    margin: 5px;
+    height: auto;
+    font-size: 19px;
+    border-top-right-radius: 18px;
+    border-style: none;
+    background-color: #f0f2f5;
+  }
+}
+@media screen and (max-width:500px) {
+  .containers form{
+    top: 0px;
+    width: 100%;
+    min-width: 300px;
+    height: 40px;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .containers form img {
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .containers form input {
+    flex: 1;
+    width:100%;
+    margin: 5px;
+    height: auto;
+    font-size: 19px;
+    border-top-right-radius: 18px;
+    border-style: none;
+    background-color: #f0f2f5;
+  }
+}
+

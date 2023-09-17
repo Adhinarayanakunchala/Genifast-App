@@ -1,0 +1,71 @@
+h1{
+    font-size: 40px;
+    color: #030d61;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+.popular-categories {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.image-item {
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f2f5;
+}
+
+.image-item .popular {
+  width: 100px;
+  padding: 10px;
+  height: auto;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #030d61;
+  padding: 1rem;
+}
+
+  .pagination{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+  }
+  .pagination .page-num{
+    padding: 12px;
+    cursor: pointer;
+    font-weight: 200;
+    box-sizing: 20px;
+    border-radius: 30px;
+    color: black;
+    
+  }
+  
+  .pagination .active{
+    background: #030d61;
+    color: white;
+  }
+
+
+  @media (max-width: 1090px) {
+    .popular-categories{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }
+   }
+
+  
+
+  
+  

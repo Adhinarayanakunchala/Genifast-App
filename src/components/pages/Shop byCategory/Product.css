@@ -1,0 +1,5 @@
+.ProductData{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    padding: 10px;
+}

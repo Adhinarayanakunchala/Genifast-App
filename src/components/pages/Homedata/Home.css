@@ -1,0 +1,186 @@
+h2 {
+  font-size: 30px;
+  color: #030d61;
+  word-spacing: 1px;
+  text-align: center;
+}
+
+.popular-categories {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.image-item {
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f0f2f5;
+}
+
+.image-item .popular {
+  width: 100%;
+  height: auto;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #030d61;
+  padding: 1rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.viewall {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #030d61;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.viewall :hover {
+  background-color: transparent;
+}
+
+
+/* Deals of the Day */
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 20px;
+  justify-content: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  gap: 5px;
+  overflow: hidden;
+  position: relative;
+  background-color: #f6f6f5e6;
+}
+
+.card img {
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+  height: 130px;
+  max-height: 130px;
+  object-fit: cover;
+}
+
+.card .panel {
+  position: absolute;
+  top: 18px;
+  right: -50%;
+  width: 20px;
+  background: transparent;
+  display: flex;
+  flex-flow: column;
+  opacity: 0;
+}
+
+.card:hover .panel {
+  right: 18px;
+  opacity: 1;
+  align-items: center;
+
+}
+
+.card .panel .icon {
+  font-size: 25px;
+  color:#030d61;
+  background-color: #eee;
+  border-radius: 15px;
+  width: 35px;
+  height:25px ;
+  margin: 20px 0;
+  box-sizing: 30px;
+  border-style: none;
+}
+
+.card .panel .icon:hover {
+  background: #ff9923;
+  color:#030d61;
+  width: 30px;
+  height: 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.productname {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 170px;
+  text-overflow: ellipsis;
+  margin: 0 10px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 13px;
+  color: #030d61;
+}
+
+.card p {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 180px;
+  text-overflow: ellipsis;
+  text-align: left;
+  padding: 10px;
+  font-weight: 100;
+  font-size: 13px;
+  word-spacing: 1px;
+  color: #757575;
+  background-color: #f6f6f5e6;
+}
+
+.productname p button {
+  justify-content: baseline;
+  margin: 10px 10px;
+  text-align: center;
+  border: 1px solid #ff9923;
+  background-color: #ff9923;
+  color: white;
+  width: 160px;
+  height: 20px;
+  border-radius: 0px;
+}
+
+@media (max-width: 1090px) {
+  .popular-categories{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  }
+ }
+
+@media screen and (max-width:780px) {
+
+  h2 {
+    margin: 0 20px;
+    font-size: 20px;
+    color: #030d61;
+    word-spacing: 1px;
+    text-align: center;
+  }
+  
+  .cards img {
+    margin-top: 0;
+    padding: 0;
+    width: 230px;
+    height: 130px;
+    max-height: 130px;
+    align-items: center;
+    text-align: center;
+    object-fit: fill;
+  }
+}
+
